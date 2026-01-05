@@ -40,7 +40,20 @@
 # print(line1)
 # file.close()
 
-file = open("files.txt", "r")
-lines = file.readlines()
-print(lines)
-file.close()
+# file = open("files.txt", "r")
+# line= file.readlines()
+# print(lines)
+# file.close()
+
+# c=print("hello")
+# print(d)
+
+# n=int(input("number:"))
+# print(n)
+
+# file=open("filess.txt","r")
+# print(file.read())
+
+# a=5
+# b="saji"
+# print(a+b)
