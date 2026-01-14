@@ -43,6 +43,17 @@ print(file.read())
 
 #raise exception
  
-x=-5
-if x<0:
-    raise Exception("negative numbers not allowed")
+# x=-5
+# if x<0:
+#     raise Exception("negative numbers not allowed")
+
+class NegativeNumberError(Exception):
+ pass
+def check_number(num):
+ if num < 0:
+ raise NegativeNumberError("Negative numbers are not allowed!")
+
+try:
+ check_number(-10)
+except NegativeNumberError as e:
+ print(e)
